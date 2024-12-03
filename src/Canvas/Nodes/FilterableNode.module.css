@@ -1,0 +1,10 @@
+.node {
+    background-color: lightcyan;
+    height: 50px;
+    width: 160px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

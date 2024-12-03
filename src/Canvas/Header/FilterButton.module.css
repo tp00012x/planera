@@ -1,0 +1,15 @@
+.button {
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 4px;
+
+    .filterIcon {
+        width: 24px;
+        height: 24px;
+        stroke: black;
+    }
+}
