@@ -37,13 +37,10 @@ When setting state there are two recommended approaches
 
 1. Setter function in the store
 
-- Recommended when state will be set often. Enables a setup identical to useState hooks
+- Recommended when state will be set often as it is reusable.
 
 ```
-const [nodes, setNodes] = useCanvasStore(
-  (state) => {
-    return [state.nodes, state.setNodes]
-  }, shallow)
+const setNodes = useCanvasStore((state) => state.setNodes)
 ```
 
 2. Onetime sets
