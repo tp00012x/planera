@@ -38,6 +38,7 @@ const generateInitialState: () => MockedResponse = () => {
 
 export type NodeData = {
   label: string;
+  isSelected?: boolean;
 };
 
 type MockedResponse = {
